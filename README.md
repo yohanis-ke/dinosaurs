@@ -1,15 +1,20 @@
 # Dinosaurs
+In this assignment, we'll be looking through a database of dinosaurs.
 
-## Setup
+We'll be looking at one table, the `dinos` table.
+
+
+## Getting Started
+First we need to set up our database from a `.sql` file.
+
+This will create the `dinosaurs` database, which contains one table, the `dinos` table, and add a bunch of data to it:
 ```
-$ psql
-you=# CREATE DATABASE dinosaurs;
-you=# \q
+$ createdb dinosaurs
 $ psql dinosaurs < dinos.sql
 $ psql dinosaurs
 ```
 
-## Columns
+## Columns in the `dinos` table
 + `name` : The dinosaur's common name, eg. Tyrannosaurus
 + `species` : The dinosaur's species name, eg. Rex
 + `t_order` : The dinosaur's taxonomical order, eg. Saurischia
