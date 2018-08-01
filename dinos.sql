@@ -1,6 +1,5 @@
 --
 -- PostgreSQL database dump
---
 
 -- Dumped from database version 9.5.3
 -- Dumped by pg_dump version 9.5.3
@@ -509,4 +508,3 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
-
